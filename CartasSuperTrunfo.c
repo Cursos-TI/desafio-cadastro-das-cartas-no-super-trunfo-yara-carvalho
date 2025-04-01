@@ -18,7 +18,7 @@ int main() {
     scanf("%s", codigo);
 
     printf("Nome do estado:\n");
-    scanf("%s", nome);
+    scanf(" %[^\n]", nome);
 
     printf("População:\n");
     scanf("%d", &populacao);
@@ -41,7 +41,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("Nome do estado:\n");
-    scanf("%s", nome1);
+    scanf(" %[^\n]", nome1);
 
     printf("População:\n");
     scanf("%d", &populacao1);
